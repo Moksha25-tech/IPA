@@ -1,0 +1,103 @@
+$date
+	Sun Feb 22 20:37:37 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_tb $end
+$var wire 64 ! pc_out [63:0] $end
+$var reg 1 " clk $end
+$var reg 64 # pc_in [63:0] $end
+$var reg 1 $ reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 64 % pc_in [63:0] $end
+$var wire 1 $ reset $end
+$var reg 64 & pc_out [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx &
+b0 %
+1$
+b0 #
+0"
+bx !
+$end
+#5000
+b0 !
+b0 &
+1"
+#10000
+0"
+0$
+#15000
+1"
+#20000
+0"
+b100 #
+b100 %
+#25000
+b100 !
+b100 &
+1"
+#30000
+0"
+b1000 #
+b1000 %
+#35000
+b1000 !
+b1000 &
+1"
+#40000
+0"
+b10000 #
+b10000 %
+#45000
+b10000 !
+b10000 &
+1"
+#50000
+0"
+b100000 #
+b100000 %
+#55000
+b100000 !
+b100000 &
+1"
+#60000
+0"
+b1000000 #
+b1000000 %
+#65000
+b1000000 !
+b1000000 &
+1"
+#70000
+0"
+1$
+#75000
+b0 !
+b0 &
+1"
+#80000
+0"
+0$
+#85000
+b1000000 !
+b1000000 &
+1"
+#90000
+0"
+#95000
+1"
+#100000
+0"
